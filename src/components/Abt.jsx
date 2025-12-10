@@ -2,7 +2,7 @@ import { Users, Clock, ShieldCheck } from "lucide-react"; // icons
 
 const Abt = () => {
   return (
-    <section className="py-20 px-6 md:px-16 bg-white-50">
+    <section className="py-10 px-6 md:px-16 bg-white-50">
       <div className="max-w-5xl mx-auto flex flex-col items-center text-center gap-12">
         {/* Text Content */}
         <div>

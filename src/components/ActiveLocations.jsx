@@ -238,7 +238,7 @@ export default function MapLocations() {
   }, []);
 
   return (
-    <section className="w-full mt-20 mb-32 overflow-x-hidden">
+    <section className="w-full mt-10 mb-32 overflow-x-hidden">
       <div className="w-full flex flex-col lg:flex-row items-center justify-around bg-gradient-to-br from-blue-600 to-blue-900 py-16 px-4">
         {/* MAP */}
         <div
