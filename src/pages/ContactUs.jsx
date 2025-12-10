@@ -50,7 +50,7 @@ const ContactUs = () => {
                   <div>
                     <p className="font-semibold">Address:</p>
                     <span>
-                      <b>Head Office</b> – 130-131, H-Block Part-1, Lajpat Nagar, New Delhi-110024, India
+                      <b>EZ 511, SRS tower, sector 31, faridabad</b>
                     </span>
                   </div>
                 </div>
@@ -136,22 +136,26 @@ const ContactUs = () => {
         </section>
 
         {/* Module 4 - Map Section */}
-        <section className="relative h-80 md:h-96 mb-2"> {/* Reduced height */}
-          <iframe
-            src="https://maps.google.com/maps?q=Lajpat%20Nagar,%20New%20Delhi&t=k&z=15&ie=UTF8&iwloc=&output=embed"
-            className="w-full h-full rounded-2xl shadow-2xl border-0"
-            allowFullScreen
-            loading="lazy"
-            title="Google Map Location"
-          ></iframe>
-          {/* Overlay card for map info */}
-          <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 bg-white p-3 rounded-xl shadow-lg border w-72 text-center">
-            <h4 className="font-bold text-indigo-600">Our Head Office</h4>
-            <p className="text-gray-700 text-sm mt-1">
-              130-131, H-Block Part-1, Lajpat Nagar, New Delhi-110024, India
-            </p>
-          </div>
-        </section>
+        <section className="relative h-80 md:h-96 mb-2">
+  {/* Correct Google Map */}
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.746374409929!2d77.30305577550565!3d28.445778992830995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce70a3b8d532f%3A0x57b5b4aeff1f3e0e!2sSRS%20Tower%2C%20Sector%2031%2C%20Faridabad%2C%20Haryana%20121003!5e0!3m2!1sen!2sin!4v1707042459131!5m2!1sen!2sin"
+    className="w-full h-full rounded-2xl shadow-2xl border-0"
+    allowFullScreen
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+    title="Google Map Location"
+  ></iframe>
+
+  {/* Overlay Card */}
+  <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 bg-white p-3 rounded-xl shadow-lg border w-72 text-center">
+    <h4 className="font-bold text-indigo-600">Our Head Office</h4>
+    <p className="text-gray-700 text-sm mt-1">
+      EZ 511, SRS Tower, Sector 31, Faridabad
+    </p>
+  </div>
+</section>
+
       </main>
     </>
   );

@@ -40,7 +40,7 @@ const Footer = () => {
           </p>
           <p className="text-gray-300 text-sm">
             <span className="font-semibold">Address:</span>{" "}
-            130-131, H-Block Part-1, Lajpat Nagar, New Delhi-110024, India
+            EZ 511, SRS tower, sector 31, Faridabad
           </p>
         </div>
 
