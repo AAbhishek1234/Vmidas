@@ -102,9 +102,9 @@ const AboutUs = () => {
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center">
 
           <img
-            src="https://images.unsplash.com/photo-1603415526960-f7e0328c63b1?q=80&w=1200&auto=format&fit=crop"
+            src="/mredit.jpg"
             alt="owner"
-            className="rounded-xl shadow-lg"
+            className="rounded-xl shadow-lg h-80 w-100 object-cover"
           />
 
           <div>
@@ -120,7 +120,7 @@ const AboutUs = () => {
             </p>
 
             <p className="text-blue-800 font-semibold text-lg mt-6">
-              — Rajesh Kumar  
+              — Muskan Rathore 
             </p>
             <p className="text-gray-500 text-sm">Founder & Managing Director, Vmidas</p>
           </div>
