@@ -1,0 +1,24 @@
+import React from 'react'
+//import Navbar from '../components/Navbar'
+import HeroSection from '../components/HeroSection'
+import Services from '../components/Services'
+import Features from '../components/Features'
+import Testimonials from '../components/Testimonials'
+import Abt from '../components/Abt'
+import WhatsAppButton from '../components/WhatsAppButton'
+
+const Home = () => {
+  return (
+    <>
+    {/* <Navbar/> */}
+    <HeroSection/>
+    <Abt/>
+    <Services/>
+    <Features/>
+    <Testimonials/>
+    <WhatsAppButton/>
+    </>
+  )
+}
+
+export default Home
