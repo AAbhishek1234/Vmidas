@@ -45,12 +45,24 @@ const HeroSection = () => {
          </div>
        </div>
 
-       <div className="flex-1">
+       {/* <div className="flex-1">
          <div className="rounded-xl shadow-xl overflow-hidden">
            <img
   src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1600&auto=format&fit=crop" alt="warehouse" className="w-full h-64 object-cover md:h-80" />
          </div>
-       </div>
+       </div> */}
+
+
+       <div className="flex-1">
+  <div className="rounded-xl shadow-xl overflow-hidden">
+    <img
+      src="/herosection1.avif"  
+      alt="warehouse"
+      className="w-full h-64 object-cover md:h-80"
+    />
+  </div>
+</div>
+
      </div>
    </section>
     </>
