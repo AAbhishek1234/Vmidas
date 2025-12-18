@@ -77,17 +77,19 @@ const Navbar = () => {
         <div className="hidden md:flex items-center gap-10 text-[17px] font-semibold text-blue-700">
           <a href="/" className="hover:text-[#3a0fa0] transition">Home</a>
             <a href="/about-us" className="hover:text-[#3a0fa0] transition">AboutUs</a>
-          <a href="/services" className="hover:text-[#3a0fa0] transition">Services</a>
+          
+        <a href="/services" className="hover:text-[#3a0fa0] transition">Services</a>
+         <a href="/locations" className="hover:text-[#3a0fa0] transition">Our Locations</a>
           <a href="/contact-us" className="hover:text-[#3a0fa0] transition">ContactUs</a>
         </div>
 
         {/* Contact Number + Quote Button */}
         <div className="hidden md:flex items-center gap-4">
           <a
-            href="tel:+91-0120-427-4048"
+            href="tel:+91 1294080230"
             className="px-4 py-2 border border-blue-600 text-blue-700 rounded-lg font-semibold hover:bg-blue-50 transition"
           >
-            +91-0120-427-4048
+            +91 1294080230
           </a>
 
           {/* <a

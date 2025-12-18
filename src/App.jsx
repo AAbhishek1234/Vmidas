@@ -6,7 +6,7 @@ import ContactUs from "./pages/ContactUs";
 import Footer from "./components/Footer";
 import Services from "./components/Services";
 import AboutUs from "./components/AboutUs";
-
+import OurLocations from "./pages/OurLocations";
 
 const App = () => (
   <BrowserRouter>
@@ -18,6 +18,7 @@ const App = () => (
 <Route path="/services" element={<Services/>}/>
     <Route path="/footer" element={<Footer/>}/>
     <Route path="/about-us" element={<AboutUs/>}/>
+    <Route path ="/locations" element ={<OurLocations/>}/>
     </Routes>
     <Footer/>
   </BrowserRouter>

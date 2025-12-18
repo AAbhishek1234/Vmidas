@@ -40,7 +40,7 @@ const ContactUs = () => {
                   <div>
                     <p className="font-semibold">Call us:</p>
                     <a href="tel:+9110204274048" className="text-gray-700 hover:text-indigo-600">
-                      +91-0120-427-4048
+                    +91 1294080230
                     </a>
                   </div>
                 </div>

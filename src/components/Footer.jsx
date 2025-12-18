@@ -36,7 +36,7 @@ const Footer = () => {
           </p>
           <p className="text-gray-300 text-sm">
             <span className="font-semibold">Phone:</span>{" "}
-            <a href="tel:+91-0120-427-4048" className="hover:text-indigo-500 transition">+91-0120-427-4048</a>
+            <a href="tel:+91 1294080230" className="hover:text-indigo-500 transition">+91 1294080230</a>
           </p>
           <p className="text-gray-300 text-sm">
             <span className="font-semibold">Address:</span>{" "}
