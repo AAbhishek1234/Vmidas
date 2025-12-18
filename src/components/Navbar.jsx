@@ -119,7 +119,7 @@ const Navbar = () => {
             <a href="/about-us" className="hover:text-[#3a0fa0] transition">AboutUs</a>
           <a href="/services" className="hover:text-[#3a0fa0] transition">Services</a>
           <a href="/contact-us" className="hover:text-[#3a0fa0] transition">ContactUs</a>
-
+<a href="/locations" className="hover:text-[#3a0fa0] transition">Our Locations</a>
           {/* Mobile call + quote */}
           <a
             href="tel:+91-0120-427-4048"
