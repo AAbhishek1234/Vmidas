@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 import Services from "./components/Services";
 import AboutUs from "./components/AboutUs";
 import OurLocations from "./pages/OurLocations";
-
+import WhatsAppButton from './components/WhatsAppButton'
 const App = () => (
   <BrowserRouter>
   <ScrollToTop/>
@@ -20,6 +20,7 @@ const App = () => (
     <Route path="/about-us" element={<AboutUs/>}/>
     <Route path ="/locations" element ={<OurLocations/>}/>
     </Routes>
+        <WhatsAppButton/>
     <Footer/>
   </BrowserRouter>
 );
